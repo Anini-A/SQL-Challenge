@@ -1,9 +1,11 @@
-This is a challenge from https://www.sql-practice.com/ that I have completed. 
+**🎯 SQL Challenge sql-practice.com **
 
-Database: 
+I will share my SQL hands on practice here. 
 
-Schema: 
+Please feel free to download and use all code as your own.
 
-Question 1
+Website: https://www.sql-practice.com/ to practice at your own pace.
 
-Response 1
+Note that the website offers the option to export your work into a JSON file. Just in case you clear your browsing data, you can always import your work and continue where your left off. 
+
+Enjoy! 😉 
