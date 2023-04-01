@@ -1,3 +1,4 @@
+<img width="700" alt="Screenshot 2023-03-31 at 6 57 20 PM" src="https://user-images.githubusercontent.com/25376135/229257925-f64d924f-34a5-4357-8ca8-154d22a4299f.png">
 # 🎯 SQL Challenge
 
 I will share my SQL hands on practice here. 
