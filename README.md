@@ -9,3 +9,6 @@ Website: https://www.sql-practice.com/ to practice at your own pace.
 Note that the website offers the option to export your work into a JSON file. Just in case you clear your browsing data, you can always import your work and continue where your left off. 
 
 Enjoy! 😉 
+
+
+
