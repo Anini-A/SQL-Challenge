@@ -10,6 +10,45 @@ Note that the website offers the option to export your work into a JSON file. Ju
 
 Enjoy! 😉 
 
+## Database: Northwing
+
+### Difficulty level: Easy 🟢
+
+#### Question 1
+
+Show the category_name and description from the categories table sorted by category_name.
+
+   ```
+select
+  category_name,
+  description
+from categories
+  ```
+
+#### Question 2
+
+Show the category_name and description from the categories table sorted by category_name.
+
+   ```
+select
+  category_name,
+  description
+from categories
+  ```
+  
+#### Question 3
+
+Show the category_name and description from the categories table sorted by category_name.
+
+   ```
+select
+  category_name,
+  description
+from categories
+  ```
+
+
+
 
 
 
