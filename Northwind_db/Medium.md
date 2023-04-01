@@ -3,7 +3,7 @@
 <img width="1082" alt="Screenshot 2023-03-31 at 6 27 47 PM" src="https://user-images.githubusercontent.com/25376135/229258213-eda196d0-7d05-462a-ac43-5774d2b2573d.png">
 
 
-### Difficulty level: Medium 🟠
+### Difficulty level: Medium 🟡
 
 #### Question 1
 
