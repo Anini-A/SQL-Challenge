@@ -36,7 +36,6 @@ Enjoy! 😉
 
 ## Contact 🪪
 
-Anini Amoakon
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/anini-amoakon]
+Anini A.
 
-<p align="right">(<a href="#readme.md-top">back to top</a>)</p>
+[Linked profile 👨🏾‍🦲](https://www.linkedin.com/in/anini-amoakon)
