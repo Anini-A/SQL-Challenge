@@ -12,7 +12,7 @@ Note that the website offers the option to export your work into a JSON file. Ju
 
 Enjoy! 😉 
 
-## 🎯 Northwind database
+## Northwind database
 
 <img width="1082" alt="Screenshot 2023-03-31 at 6 27 47 PM" src="https://user-images.githubusercontent.com/25376135/229259462-ea0d0a4d-fe1d-4626-bb65-b4c9fcc72391.png">
 
