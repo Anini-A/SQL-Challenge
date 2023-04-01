@@ -23,7 +23,15 @@ Enjoy! 😉
 [Hard 🔴](Northwind_db/Hard.md)
 
 
+## Hospital database
 
+<img width="632" alt="Screenshot 2023-03-31 at 10 17 40 PM" src="https://user-images.githubusercontent.com/25376135/229263473-da9c9dee-fcb7-4044-8a8d-8072970f068d.png">
+
+[Easy 🟢](Hospital_db/Easy.md)
+
+[Medium 🟡](Hospital_db/Medium.md)
+
+[Hard 🔴](Hospital_db/Hard.md)
 
 
 
