@@ -1,4 +1,4 @@
-<img width="700" alt="Screenshot 2023-03-31 at 6 57 20 PM" src="https://user-images.githubusercontent.com/25376135/229257925-f64d924f-34a5-4357-8ca8-154d22a4299f.png">
+<img width="700" height= "300" alt="Screenshot 2023-03-31 at 6 57 20 PM" src="https://user-images.githubusercontent.com/25376135/229257925-f64d924f-34a5-4357-8ca8-154d22a4299f.png">
 
 # 🎯 SQL Challenge
 
@@ -38,4 +38,5 @@ Enjoy! 😉
 
 Anini Amoakon
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/anini-amoakon]
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme.md-top">back to top</a>)</p>
