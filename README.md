@@ -12,6 +12,9 @@ Note that the website offers the option to export your work into a JSON file. Ju
 
 Enjoy! 😉 
 
+[a relative link](Easy.md)
+
+
 
 
 
