@@ -5,7 +5,7 @@
 
 ### Difficulty level: Hard 🔴
 
-#### Question 1
+#### Question
 
 Show the employee's first_name and last_name, a "num_orders" column with a count of the orders taken, and a column called "Shipped" that displays "On Time" if the order shipped on time and "Late" if the order shipped late.
 
