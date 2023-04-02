@@ -33,6 +33,11 @@ Enjoy! 😉
 
 [Hard 🔴](Hospital_db/Hard.md)
 
+## Other resources to learn SQL 📖
+
+##### Free
+
+##### Certification
 
 ## Contact 🪪
 
