@@ -60,9 +60,9 @@ WHERE
 All patients who have gone through admissions, can see their medical documents on our site. Those patients are given a temporary password after their first admission. Show the patient_id and temp_password.
 
 The password must be the following, in order:
-1. patient_id
-2. the numerical length of patient's last_name
-3. year of patient's birth_date
+1 patient_id
+2 the numerical length of patient's last_name
+3 year of patient's birth_date
    ```
 SELECT
   patient_id,
@@ -100,60 +100,75 @@ GROUP BY has_insurance;
   ```
   
 #### Question 6
-
-xxxxxxxxxxxxxx
+Show the provinces that has more patients identified as 'M' than 'F'. Must only show full province_name
 
    ```
-
+SELECT province_name
+FROM patients
+  JOIN province_names ON patients.province_id = province_names.province_id
+GROUP BY province_name
+HAVING
+  SUM(
+    CASE
+      WHEN gender = 'M' THEN 1
+      ELSE 0
+    END
+  ) > SUM(
+    CASE
+      WHEN gender = 'F' THEN 1
+      ELSE 0
+    END
+  );
   ```
 
 #### Question 7
-
-xxxxxxxxxxxxxx
-
+We are looking for a specific patient. Pull all columns for the patient who matches the following criteria:
+1 First_name contains an 'r' after the first two letters.
+2 Identifies their gender as 'F'
+3 Born in February, May, or December
+4 Their weight would be between 60kg and 80kg
+5 Their patient_id is an odd number
+6 They are from the city 'Kingston'
    ```
-
+SELECT *
+FROM patients
+WHERE
+  first_name LIKE '__r%'
+  AND gender = 'F'
+  AND MONTH(birth_date) IN (2, 5, 12)
+  AND weight BETWEEN 60 AND 80
+  AND patient_id % 2 = 1
+  AND city = 'Kingston';
   ```
 
 #### Question 8
-
-xxxxxxxxxxxxxx
-
+Show the percent of patients that have 'M' as their gender. Round the answer to the nearest hundreth number and in percent form.
    ```
-
+SELECT
+  round(100 * avg(gender = 'M'), 2) || '%' AS percent_of_male_patients
+FROM patients;
   ```
    
 #### Question 9
-
-xxxxxxxxxxxxxx
-
+For each day display the total amount of admissions on that day. Display the amount changed from the previous date.
    ```
-
+SELECT
+  admission_date,
+  COUNT(*) AS admissions_count,
+  COUNT(*) - LAG(COUNT(*)) OVER (ORDER BY admission_date) AS change
+FROM admissions
+GROUP BY admission_date;
   ```
-  
-  
+   
 #### Question 10
-
-xxxxxxxxxxxxxx
-
+Sort the province names in ascending order in such a way that the province 'Ontario' is always on top.
    ```
-
-  ```
-  
-  
-#### Question 11
-
-xxxxxxxxxxxxxx
-
-   ```
-
-  ```
-  
-  
-#### Question 12
-
-xxxxxxxxxxxxxx
-
-   ```
-
+SELECT province_name
+FROM province_names
+ORDER BY
+  CASE
+    WHEN province_name = 'Ontario' THEN 0
+    ELSE 1
+  END,
+  province_name ASC;
   ```
