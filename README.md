@@ -36,8 +36,12 @@ Enjoy! 😉
 ## Other resources to learn SQL 📖
 
 ##### Free
+* [w3schools.com](https://www.w3schools.com/sql/)
+* [sqlzoo.net](https://sqlzoo.net/wiki/SQL_Tutorial)
+* [Codecademy Learn SQL](https://www.codecademy.com/learn/learn-sql?periods=year&plan_id=proGoldAnnualV2&utm_source=pepperjam&utm_medium=affiliate&utm_term=214453&clickId=4335884085&pj_creativeid=8-12462&pj_publisherid=214453)
 
-##### Certification
+##### Paid
+* [learnsql.com](learnsql.com)
 
 ## Contact 🪪
 
